@@ -31,4 +31,9 @@ void main() {
     dan += 2;
     break;
   }
+
+  // 함수
+  print("Integer class");
+  int iInteger = 3;
+  printMessage("1-1", iInteger.abs());
 }
