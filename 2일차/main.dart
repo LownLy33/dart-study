@@ -1,39 +1,22 @@
 void main() {
-  // 오전 퀴즈풀이.
-  var a = 'banana';
+  // 철수 시험 등급
+  int score = 70;
 
-  if (a == 'apple') {
-    print(true);
-  } else if (a == 'watermelon') {
-    print(true);
+  if (score >= 91 && score <= 100) {
+    print("a");
+  } else if (score >= 81 && score <= 90) {
+    print("b");
+  } else if (score >= 71 && score <= 80) {
+    print("c");
+  } else if (score >= 61 && score <= 70) {
+    print("d");
+  } else if (score >= 51 && score <= 60) {
+    print("e");
   } else {
-    print(true);
+    print("f");
   }
 
-  // 오후 퀴즈 풀이
-  print("[13] 'for' statement.\n");
-  var number = 1;
-  var count = 1;
-  for (count = 1; count <= 3; count++) {
-    print("$number x $count = ${number * count}");
-  }
-
-  // todo: 구구단 짝수단 출력 반복문
-  int dan = 2;
-
-  while (dan <= 8) {
-    print("\n$dan단");
-    int i = 1;
-    while (i <= 9) {
-      print("$dan * $i = ${dan * i}");
-      i++;
-    }
-    dan += 2;
-    break;
-  }
-
-  // 함수
-  print("Integer class");
-  int iInteger = 3;
-  printMessage("1-1", iInteger.abs());
+  // 영제 BMI
+  var score = 61 / (1.76 * 1.76);
+  print("score");
 }
