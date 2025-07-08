@@ -17,4 +17,18 @@ void main() {
   for (count = 1; count <= 3; count++) {
     print("$number x $count = ${number * count}");
   }
+
+  // todo: 구구단 짝수단 출력 반복문
+  int dan = 2;
+
+  while (dan <= 8) {
+    print("\n$dan단");
+    int i = 1;
+    while (i <= 9) {
+      print("$dan * $i = ${dan * i}");
+      i++;
+    }
+    dan += 2;
+    break;
+  }
 }
