@@ -15,9 +15,4 @@ void main() {
   } else {
     print("f");
   }
-
-  // 영제 BMI
-
-  num m = 1.76;
-  num kg = 63;
 }
