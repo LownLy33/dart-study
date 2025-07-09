@@ -1,8 +1,12 @@
+class Integer {
+  late int _value;
+
+  Integer([int givenNumber = 0]) {
+    _value = givenNumber;
+  }
+}
+
 void main() {
-  Set setA = {'가', '나', '다', '라', '마', '바', '사'};
-  Set setB = {'아', '자', '차', '카', '타', '파', '하'};
-
-  print("$setA with add : $setB");
-
-  print("Intersection of $setA and $setB");
+  var num1 = Integer(7878);
+  print(num1._value);
 }
