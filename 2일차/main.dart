@@ -17,6 +17,7 @@ void main() {
   }
 
   // 영제 BMI
-  var score = 61 / (1.76 * 1.76);
-  print("score");
+
+  num m = 1.76;
+  num kg = 63;
 }
