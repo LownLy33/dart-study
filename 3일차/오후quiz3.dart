@@ -1,18 +1,15 @@
 class player {
-  String? name;
-  int? age;
+  late String name;
+  late int age;
 
-  String get player{
-    return name;
-  }
-
-  player() {
-    print("$player");
+  player(String givenName, int givenAge) {
+    name = givenName;
+    age = givenAge;
   }
 }
 
 void main() {
-  var Player = player();
+  var Player = player("홍길동", 28);
 
-  print(Player);
+  print(Player.name);
 }
