@@ -24,12 +24,17 @@ class Integer {
   }
 }
 
+class newInteger extends Integer {
+  List<int> list = [];
+
+  newInteger([int giveValue = 0]) {
+    _value = giveValue;
+  }
+}
+
 void main() {
-  var num1 = Integer(5);
-  var num2 = Integer(10);
-  var num3 = num1 + num2;
+  var newNum1 = newInteger();
+  var newNum2 = newInteger(3);
 
-  // 5+3
-
-  print(num3.get());
+  print(newNum1);
 }
